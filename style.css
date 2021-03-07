@@ -1,0 +1,142 @@
+* {
+    font-family: 'Quicksand',
+    sans-serif;
+    /* overflow-x: hidden !important; */
+}
+
+.button
+{
+    width: 155px;
+    height: 50px;
+    color: #272042;
+    background-color: #FBE0DC;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.page1{
+    padding: 0 145px 0 145px;
+    /* margin-top: -50px; */
+    min-height: 90vh;
+}
+
+.title-sm{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 70px;
+}
+
+.title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 70px;
+}
+
+.text{
+    font-weight: 400;
+    font-size: 20px;
+    color: #8B8BA5;
+}
+
+.button-1{
+    width: 155px;
+    height: 50px;
+    color: #272042;
+    background-color: #F7C531;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+/* START:SECTION 2 */
+.nav-sec-2 a{
+    text-decoration: none;
+    color: #272042 ;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+
+}
+
+.nav-sec-2 a:hover{
+    color: #F7C531;
+}
+
+.nav-sec-2 a:after {
+    display: block;
+    content: '';
+    border-bottom: solid 3px #F7C531;
+    transform: scaleX(0);
+    transition: transform 250ms ease-in-out;
+}
+
+.nav-sec-2 a:hover:after{
+    
+    transform: scaleX(1);
+}
+
+.star,
+.card-text {
+    margin-top: -10px;
+}
+/* END:Section 2 */
+
+/* START:Section 3 */
+
+.text-quote{
+
+    font-size: 36px;
+    font-weight: normal;
+    color: #272042;
+    line-height: 50px;
+    margin-top: 150px !important;
+}
+/* END:Section 3 */
+
+/* START:Footer */
+footer{
+    min-height: 40vh;
+    border-top: 1px solid #ECECEC;
+    border-bottom: 1px solid #ECECEC;
+}
+
+.text-footer{
+    font-size: 18px;
+    color: #8B8BA5;
+}
+/* END:Footer */
+
+
+
+/* START:Mobile Friendly */
+@media screen and (max-width: 576px) {
+    .page1{
+        padding: 0 0 0 0 !important;
+    }
+    .page1 .pic-1{
+        width: 350px !important;
+        height: 220px !important;
+    }
+    .apps-picture{
+    align-items: center !important;
+    justify-content: center !important;
+    }
+
+    .text-quote{
+        margin-top: 0px !important;
+    }
+    footer .row{
+        flex-direction: column;
+    }
+
+    .footer-name{
+        margin-top: 18px;
+    }
+ }
+/* END:Mobile Friendly */
